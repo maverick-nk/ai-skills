@@ -10,9 +10,9 @@ Skills are plain markdown files. No dependencies, no build step.
 
 | Skill | Trigger | Description | Examples |
 |---|---|---|---|
-| [`adr`](.claude/adr/SKILL.md) | `/adr`, "document this decision", "why did we choose" | Creates Architecture Decision Records capturing design choices, alternatives, trade-offs, and concept references | — |
-| [`concept-quiz`](.claude/concept-quiz/SKILL.md) | `/concept-quiz`, "quiz me", "test my knowledge" | After each sub-feature, maps implementation to system design concepts and runs an interactive MCQ session with a persistent score log | — |
-| [`repo-context-system`](.claude/repo-context-system/SKILL.md) | "set up context", "create the wiki", "document the services" | Sets up a token-efficient context graph (`CONTEXT.md` + `_master.md`) so Claude loads only what each task needs | — |
+| [`adr`](.claude/adr/SKILL.md) | `/adr`, "document this decision", "why did we choose" | Creates Architecture Decision Records capturing design choices, alternatives, trade-offs, and concept references | [decisions/](https://github.com/maverick-nk/ai-personalization-platform/tree/main/docs/decisions) |
+| [`concept-quiz`](.claude/concept-quiz/SKILL.md) | `/concept-quiz`, "quiz me", "test my knowledge" | After each sub-feature, maps implementation to system design concepts and runs an interactive MCQ session with a persistent score log | [sys-design-concepts/](https://github.com/maverick-nk/ai-personalization-platform/tree/main/docs/sys-design-concepts) |
+| [`repo-context-system`](.claude/repo-context-system/SKILL.md) | "set up context", "create the wiki", "document the services" | Sets up a token-efficient context graph (`CONTEXT.md` + `_master.md`) so Claude loads only what each task needs | [_master.md](https://github.com/maverick-nk/ai-personalization-platform/blob/main/_master.md), [CONTEXT.md](https://github.com/maverick-nk/ai-personalization-platform/blob/main/services/event-ingestion/CONTEXT.md) |
 
 ---
 
